@@ -1,11 +1,15 @@
 <?php
 
-$pdo = new PDO('mysql:host=mysql;dbname=user;host=127.0.0.1', 'root', "", [
+$pdo = new PDO('mysql:host=mysql;dbname=basedetest;host=127.0.0.1', 'root', "", [
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
 ]);
-$query = $pdo->query('SELEC * FROM connexion');
- $articles = $query->fetch();
- ?>
+$query = $pdo->prepare('SELECT * FROM connexion');
+
+$executeIsOk = $query->execute();
+
+$utilisateurs = $query->fetchAll();
+
+?>
 
 <!DOCTYPE html>
 <html>
@@ -15,7 +19,17 @@ $query = $pdo->query('SELEC * FROM connexion');
 </head>
 
 <body>
-    <p><?= $articles['email']</p> </br>
-    <p><?= $articles['motdepasse']</p>
+<h1>Liste des utilisateurs</h1>
+
+<ul>
+    <?php foreach ($utilisateurs as $utilisateur): ?>
+
+        <li>
+            <?= $utilisateur['email'] ?>  <?= $utilisateur['motdepasse']?>
+        </li>
+
+    <?php endforeach; ?>
+
+</ul>
 </body>
 </html>
