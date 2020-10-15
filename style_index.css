@@ -1,0 +1,4 @@
+var_dump($_POST);
+
+$mail = $_POST["Adresse mail"];
+$motdepasse = $_POST["Mot de passe"];
