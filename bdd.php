@@ -14,22 +14,29 @@ $utilisateurs = $query->fetchAll();
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="style_list.css">
     <meta charset="utf-8" />
     <title>Titre</title>
 </head>
 
 <body>
-<h1>Liste des utilisateurs</h1>
+<div class="liste">
+    <h1>Liste des utilisateurs :</h1>
 
-<ul>
+        <ul>
     <?php foreach ($utilisateurs as $utilisateur): ?>
+        <h3>Email :</h3>
+            <li>
+                <?= $utilisateur['email'] ?>
+            </li>
 
-        <li>
-            <?= $utilisateur['email'] ?>  <?= $utilisateur['motdepasse']?>
-        </li>
-
+        <h3>Mot de passe :</h3>
+            <li>
+                <?= $utilisateur['motdepasse']?>
+            </li>
+    <hr>
     <?php endforeach; ?>
-
-</ul>
+        </ul>
+</div>
 </body>
 </html>

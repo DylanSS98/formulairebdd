@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-color: dimgray;
+    font-family: Arial;
+}
+ul li{
+    list-style-type: none;
+}
+.liste{
+    border: 3px solid dimgray ;
+    background-color: snow;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+hr{
+    margin-left: 5%;
+    margin-right: 10%;
+}
+h3 {
+    color: red;
+}
