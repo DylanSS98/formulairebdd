@@ -7,6 +7,7 @@ $query = $pdo->prepare('SELECT * FROM connexion');
 
 $executeIsOk = $query->execute();
 
+
 $utilisateurs = $query->fetchAll();
 
 ?>
@@ -26,6 +27,7 @@ $utilisateurs = $query->fetchAll();
         <ul>
     <?php foreach ($utilisateurs as $utilisateur): ?>
         <h3>Email :</h3>
+
             <li>
                 <?= $utilisateur['email'] ?>
             </li>
@@ -33,7 +35,11 @@ $utilisateurs = $query->fetchAll();
         <h3>Mot de passe :</h3>
             <li>
                 <?= $utilisateur['motdepasse']?>
+
             </li>
+        </br>
+        <a href="supprimer.php?mdpUtilisateur=<?= $utilisateur['id'] ?>">Supprimer</a>
+        <a href="modification.php?mdpUtilisateur=<?= $utilisateur['id'] ?>">Modifier</a>
     <hr>
     <?php endforeach; ?>
         </ul>

@@ -5,6 +5,11 @@ body{
 }
 ul li{
     list-style-type: none;
+    display: block;
+
+}
+li:hover{
+    webkit-transform:scale
 }
 .liste{
     border: 3px solid dimgray ;
