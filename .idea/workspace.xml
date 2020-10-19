@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19a51b6c-be18-4edf-be4e-fc570ea69b8f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/form_modification.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bdd.php" beforeDir="false" afterPath="$PROJECT_DIR$/bdd.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cour.php" beforeDir="false" afterPath="$PROJECT_DIR$/cour.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style_list.css" beforeDir="false" afterPath="$PROJECT_DIR$/style_list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modification.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style_index.css" beforeDir="false" afterPath="$PROJECT_DIR$/style_index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supprimer.php" beforeDir="false" afterPath="$PROJECT_DIR$/supprimer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +68,8 @@
       <workItem from="1602772997570" duration="405000" />
       <workItem from="1602830285546" duration="1640000" />
       <workItem from="1602834277209" duration="6923000" />
+      <workItem from="1602848164894" duration="5245000" />
+      <workItem from="1603107617206" duration="5724000" />
     </task>
     <servers />
   </component>

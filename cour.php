@@ -13,10 +13,16 @@ $sql = "INSERT INTO connexion (email, motdepasse) VALUES ('$mail', '$motdepasse'
 $pdo->exec($sql);
 
 if ($sql){
-    echo "Le contact à été ajouté dans la bdd !";
+    echo '<div class="alert alert-success" role="alert">
+            <link rel="stylesheet" href="style_index.css">
+  Enregistrer avec succès !
+</div>';
 }
 else{
-    echo "Echec de l'insertion";
+    echo '<div class="alert alert-danger" role="alert">
+<link rel="stylesheet" href="style_index.css">
+        Erreur !
+</div>';
 }
 
 

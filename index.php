@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <meta charset="utf-8" />
-        <title>Test php</title>
-    </head>
+<head>
+    <link rel="stylesheet" href="style_index.css">
+    <meta charset="utf-8" />
+    <title>Test php</title>
+</head>
 
-    <body>
-        <form action="cour.php" method="POST">
-            <div>
-                <label for="">Email :</label>
-                    <input type="email" name="mail">
-            </div>
-
-            <div>
-                <label for="">Mot de passe :</label>
-                    <input type="password" name="motdepasse">
-            </div>
-            
-            <button type="submit">Envoyer</button>
-        </form>
-    </body>
+<body>
+<h1 class="display-4">Formulaire d'inscription</h1>
+<form action="cour.php" method="POST">
+    <div class="form-group">
+        <label for="exampleInputEmail1">Adresse email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="mail">
+        <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre e-mail avec quelqu'un d'autre.</small>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Mot de passe</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" name="motdepasse">
+    </div>
+    <button type="submit" class="btn btn-primary">Envoyer</button>
+</form>
+</body>
 </html>
+
+
+

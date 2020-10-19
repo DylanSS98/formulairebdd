@@ -16,3 +16,5 @@ if ($executeIsOk){
 else {
     echo "Echec de la suppression";
 }
+header ("Refresh: 3;URL=http://localhost/test_php/bdd.php");
+exit();
