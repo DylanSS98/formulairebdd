@@ -7,18 +7,41 @@
 </head>
 
 <body>
-<h1 class="display-4">Formulaire d'inscription</h1>
-<form action="cour.php" method="POST">
-    <div class="form-group">
-        <label for="exampleInputEmail1">Adresse email</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="mail">
-        <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre e-mail avec quelqu'un d'autre.</small>
+
+<form method="POST" action="cour.php" id="login-form" class="login-form" autocomplete="off" role="main">
+    <h1 class="a11y-hidden">Formulaire d'inscription</h1>
+    <div>
+        <label class="label-email">
+            <input type="email" class="text" name="mail" placeholder="Email" tabindex="1" required />
+            <span class="required">Email</span>
+        </label>
     </div>
-    <div class="form-group">
-        <label for="exampleInputPassword1">Mot de passe</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" name="motdepasse">
+    <input type="checkbox" name="show-password" class="show-password a11y-hidden" id="show-password" tabindex="3" />
+    <label class="label-show-password" for="show-password">
+        <span>Show Password</span>
+    </label>
+    <div>
+        <label class="label-password">
+            <input type="text" class="text" name="motdepasse" placeholder="Password" tabindex="2" required />
+            <span class="required">Mot de passe</span>
+        </label>
     </div>
-    <button type="submit" class="btn btn-primary">Envoyer</button>
+    <input type="submit" value="Log In" />
+    <div class="email">
+        <a href="#">Mot de passe oublié?</a>
+    </div>
+    <figure aria-hidden="true">
+        <div class="person-body"></div>
+        <div class="neck skin"></div>
+        <div class="head skin">
+            <div class="eyes"></div>
+            <div class="mouth"></div>
+        </div>
+        <div class="hair"></div>
+        <div class="ears"></div>
+        <div class="shirt-1"></div>
+        <div class="shirt-2"></div>
+    </figure>
 </form>
 </body>
 </html>

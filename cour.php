@@ -24,6 +24,8 @@ else{
         Erreur !
 </div>';
 }
+header ("Refresh: 3;URL=http://localhost/test_php/");
+exit();
 
 
  
