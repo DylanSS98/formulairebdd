@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19a51b6c-be18-4edf-be4e-fc570ea69b8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/form_modification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modification.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bdd.php" beforeDir="false" afterPath="$PROJECT_DIR$/bdd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cour.php" beforeDir="false" afterPath="$PROJECT_DIR$/cour.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modification.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style_index.css" beforeDir="false" afterPath="$PROJECT_DIR$/style_index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form_modification.php" beforeDir="false" afterPath="$PROJECT_DIR$/form_modification.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supprimer.php" beforeDir="false" afterPath="$PROJECT_DIR$/supprimer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +28,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../capital" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,7 +64,13 @@
       <workItem from="1602830285546" duration="1640000" />
       <workItem from="1602834277209" duration="6923000" />
       <workItem from="1602848164894" duration="5245000" />
-      <workItem from="1603107617206" duration="5724000" />
+      <workItem from="1603107617206" duration="6490000" />
+      <workItem from="1603115150013" duration="46000" />
+      <workItem from="1603116119706" duration="2434000" />
+      <workItem from="1603175423698" duration="189000" />
+      <workItem from="1603177130042" duration="2678000" />
+      <workItem from="1603184669904" duration="2516000" />
+      <workItem from="1603197621520" duration="2939000" />
     </task>
     <servers />
   </component>
